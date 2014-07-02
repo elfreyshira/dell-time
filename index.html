@@ -19,8 +19,8 @@
 
     <div ng-controller="MainController">
         <form ng-submit="helloWorld = AddMinutes(userInput.time, userInput.minutesToAdd)">
-            <input ng-model="userInput.time" type="text">
-            <input ng-model="userInput.minutesToAdd" type="text">
+            <input ng-model="userInput.time" type="text" placeholder="Time">
+            <input ng-model="userInput.minutesToAdd" type="text" placeholder="Minutes to add">
             <input type="submit">
         </form>
         <p>
