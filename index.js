@@ -27,7 +27,7 @@ function AddMinutes(strTime, minutesToAdd) {
     var newTotalMinutes = totalMinutes + minutesToAdd;
     newTotalMinutes %= 24 * 60;
 
-    var newHour = Math.floor(newTotalMinutes / 60)
+    var newHour = Math.floor(newTotalMinutes / 60);
     var newMinute = newTotalMinutes % 60;
 
     var newMeridiem;
